@@ -1,35 +1,27 @@
-Project Title
+# Description  
 
-In this competition, Home Depot is asking to help them improve their customers' shopping experience by developing a model that can accurately predict the relevance of search results. Search relevancy is an implicit measure Home Depot uses to gauge how quickly they can get customers to the right products. Currently, human raters evaluate the impact of potential changes to their search algorithms, which is a slow and subjective process. By removing or minimizing human input in search relevance evaluation, Home Depot hopes to increase the number of iterations their team can perform on the current search algorithms.
+The code and process notebook is for analysis and predictive modeling approach to Text Analysis and Entity Resolution. 
 
-Getting Started:
+# Objective  
 
-Data for this project can be obtained from  
-https://www.kaggle.com/c/home-depot-product-search-relevance
+Entity resolution is a common, yet difficult problem in data cleaning and integration. This project will demonstrate how we can use Apache Spark to apply powerful and scalable text analysis techniques and perform entity resolution across two datasets of commercial products from Google and Amazon.
 
+# Getting Started  
+This assignment can be completed using basic Python, PySpark transformations and actions, and the plotting library matplotlib
+Data files for this assignment are from the metric-learning project and can be found at: dbfs/databricks-datasets/cs100/lab3/data-001
+The directory contains the following files:
+•	Google.csv, the Google Products dataset, named as targets.csv in the repository
+•	Amazon.csv, the Amazon dataset, named as sources.csv in the repository
+•	Google_small.csv, 200 records sampled from the Google data, subset of targets.csv
+•	Amazon_small.csv, 200 records sampled from the Amazon data, subset of sources.csv
+•	Amazon_Google_perfectMapping.csv, the "gold standard" mapping, named as mapping.csv in the repository
+•	stopwords.txt, a list of common English words
 
-Prerequisites:  
+# Prerequisites  
 
-1) Installation steps for genism  
-https://radimrehurek.com/gensim/install.html  
-easy_install -U gensim
+You need to have an account with Databricks cloud and have cluster setup to run the python notebook.
+https://community.cloud.databricks.com/login.html
 
-2) Install Inflect Pip install inflect
-
-3) import nltk nltk.download()
-
-4) Install fuzzywuzzy pip install fuzzywuzzy
-
-
-
-
-
-
-
-
-
-
-
-
-
+# Files  
+Text_Analysis_And_Entity_Resolution.ipynb notebook describes the work and main contributions
 
